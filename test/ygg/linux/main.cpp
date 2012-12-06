@@ -8,7 +8,7 @@
 // Steven Karas <steven.karas@gmail.com>
 //
 
-#include "unit_tests.h"
+#include "ygg/common/unit_tests.h"
 
 int main(void) {
     unit_tests();
