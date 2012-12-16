@@ -2,8 +2,8 @@
 // See doc/LICENSE.md for license terms
 //
 
-#ifndef LOGGING_LOG_HELPER_H_INCLUDED
-#define LOGGING_LOG_HELPER_H_INCLUDED
+#ifndef YGG_COMMON_LOGGING_LOG_HELPER_H_INCLUDED
+#define YGG_COMMON_LOGGING_LOG_HELPER_H_INCLUDED
 
 namespace ygg {
 namespace logging {
@@ -23,4 +23,4 @@ void platform_log(int logLevel, const char* tag, const char* filename, int linen
 }
 }
 
-#endif /* LOGGING_LOG_HELPER_H_INCLUDED */
+#endif /* YGG_COMMON_LOGGING_LOG_HELPER_H_INCLUDED */

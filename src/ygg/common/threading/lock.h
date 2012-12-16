@@ -2,8 +2,8 @@
 // See doc/LICENSE.md for license terms
 //
 
-#ifndef THREADING_LOCK_H_INCLUDED
-#define THREADING_LOCK_H_INCLUDED
+#ifndef YGG_COMMON_THREADING_LOCK_H_INCLUDED
+#define YGG_COMMON_THREADING_LOCK_H_INCLUDED
 
 /*
  * This header includes platform specific headers to define the following symbols:
@@ -64,4 +64,4 @@ private:
 } /* namespace threading */
 } /* namespace bbf */
 
-#endif /* THREADING_LOCK_H_INCLUDED */
+#endif /* YGG_COMMON_THREADING_LOCK_H_INCLUDED */

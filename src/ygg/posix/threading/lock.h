@@ -2,8 +2,8 @@
 // See doc/LICENSE.md for license terms
 //
 
-#ifndef POSIX_THREADING_LOCK_H_INCLUDED
-#define POSIX_THREADING_LOCK_H_INCLUDED
+#ifndef YGG_POSIX_THREADING_LOCK_H_INCLUDED
+#define YGG_POSIX_THREADING_LOCK_H_INCLUDED
 
 #include <pthread.h>
 
@@ -15,4 +15,4 @@
 #define LOCK_ACQUIRE(LOCK) pthread_mutex_lock(LOCK)
 #define LOCK_RELEASE(LOCK) pthread_mutex_unlock(LOCK)
 
-#endif /* POSIX_THREADING_LOCK_H_INCLUDED */
+#endif /* YGG_POSIX_THREADING_LOCK_H_INCLUDED */
