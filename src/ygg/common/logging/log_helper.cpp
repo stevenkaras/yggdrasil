@@ -8,7 +8,7 @@
 #include <stdarg.h>
 #include <string.h>
 
-#define LOG_MESSAGE_BUFFER_SIZE 1000
+#define LOG_MESSAGE_BUFFER_SIZE 4096
 
 void ygg::logging::log_helper(int log_level, const char* tag, const char* filename, int linenum, const char* message, ...) {
     char buffer[LOG_MESSAGE_BUFFER_SIZE];
