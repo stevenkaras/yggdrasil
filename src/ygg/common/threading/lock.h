@@ -23,8 +23,7 @@
 #error No compatible lock implementation for this platform
 #endif
 
-namespace ygg {
-namespace threading {
+namespace ygg::threading {
 
 /**
  * Mutex locking primitive
@@ -61,7 +60,6 @@ private:
     lock *_lock;
 };
 
-} /* namespace threading */
-} /* namespace bbf */
+} /* namespace ygg::threading */
 
 #endif /* YGG_COMMON_THREADING_LOCK_H_INCLUDED */
