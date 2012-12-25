@@ -5,7 +5,8 @@
 #ifndef YGG_COMMON_LOGGING_LOG_HELPER_H_INCLUDED
 #define YGG_COMMON_LOGGING_LOG_HELPER_H_INCLUDED
 
-namespace ygg::logging {
+namespace ygg {
+namespace logging {
 
 /*
  * Log a message at the given log level, from the line in the given file and with the given tag
@@ -19,6 +20,7 @@ void log_helper(int logLevel, const char* tag, const char* filename, int linenum
  */
 void platform_log(int logLevel, const char* tag, const char* filename, int linenumber, const char* message);
 
+}
 } /* namespace ygg::logging */
 
 #endif /* YGG_COMMON_LOGGING_LOG_HELPER_H_INCLUDED */
