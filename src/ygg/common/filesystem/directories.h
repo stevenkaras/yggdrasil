@@ -10,6 +10,8 @@ namespace filesystem {
 
 /**
  * Get the path to a directory where configuration files may be stored for this application
+ *
+ * Files stored under this directory may be destroyed when the application is uninstalled
  */
 const char * get_user_config_dir();
 
