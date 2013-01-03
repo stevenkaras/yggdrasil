@@ -11,5 +11,5 @@
 void unit_tests() {
     LoggingTests_TestSuite();
     LockTests_TestSuite();
-    printf("All common tests passed!");
+    printf("All common tests passed!\n");
 }
